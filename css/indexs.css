@@ -1,0 +1,697 @@
+/*顶部*/
+#laya_nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  margin: 0;
+  height: 68px;
+  border-radius: 0;
+  min-width: 310px;
+  background-color: #1A1A1A;
+  background-image: none;
+  border: none; }
+  #laya_nav .container .navbar_header {
+    height: 68px;
+    float: left;
+    line-height: 68px; }
+    #laya_nav .container .navbar_header .navbar_bad {
+      padding: 16px 10px;
+      height: auto; }
+  #laya_nav .container .nav_u {
+    float: left;
+    list-style: none;
+    line-height: 68px;
+    overflow: hidden; }
+    #laya_nav .container .nav_u li {
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      float: left; }
+      #laya_nav .container .nav_u li a {
+        color: white;
+        padding: 15px 10px;
+        text-decoration: none; }
+      #laya_nav .container .nav_u li:hover {
+        background-color: #3B3E43; }
+  #laya_nav .container .nav_right {
+    float: right; }
+  #laya_nav .container .navbar_toggle {
+    border-color: #333;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: white;
+    font-size: 24px;
+    width: 44px;
+    height: 34px;
+    position: absolute;
+    right: 2%;
+    top: 18px;
+    line-height: 1px;
+    outline: none;
+    display: none; }
+
+  @media only screen and (max-width: 768px) {
+  .navbar_toggle {
+    display: block !important; }
+
+  .nav_right {
+    display: none; }
+
+  .nav_u {
+    width: 100%;
+    height: 476px;
+    display: none;
+    /*476*/
+    position: absolute;
+    left: 0;
+    top: 68px;
+    background-color: black;
+    overflow: hidden; }
+    .nav_u li {
+      width: 100%;
+      height: 68px;
+      display: block; } }
+/*container*/
+@media (min-width: 768px) {
+.container {
+  width: 750px; } }
+@media (min-width: 992px) {
+.container {
+  width: 970px; } }
+@media screen and (min-width: 1200px) {
+.container {
+  width: 1170px; } }
+@media only screen and (min-width: 769px) {
+  .nav_u {
+    height: 68px; } }
+.container {
+  /*height: 68px;*/
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative; }
+/*头部*/
+#laya_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin: 0;
+    height: 68px;
+    border-radius: 0;
+    min-width: 310px;
+    background-color: #1A1A1A;
+    background-image: none;
+    border: none;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*背景图*/
+.backgroundIMG{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: #112D52 url(../img/zjh_backgroundIMG.jpg) no-repeat 100% 100%;
+    background-size: cover;
+}
+/*内容*/
+#laya_content {
+    width: 100%;
+    height: auto;
+    margin: 80px auto 0 auto;
+    margin-top: 68px;
+}
+.laya_test {
+    padding: 33px 0 83px;
+    background: url(../img/zjh_banner1.jpg) no-repeat center center;
+    background-size: cover;
+}
+.laya_test .laya_test_main {
+    width: 58%;
+    margin: 0 auto;
+    text-align: center;
+}
+.laya_test .laya_test_main img {
+    display: block;
+    width: 100%;
+}
+.laya_test .laya_test_main h2 {
+    margin: 0;
+    text-align: center;
+}
+.laya_test .laya_test_main a {
+    display: inline-block;
+    padding: 0 18px;
+    border: 1px solid #fff;
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 2.7;
+    margin: 20px 10px 0;
+    text-decoration: none;
+}
+/*内容一*/
+.caseDiv {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    overflow: hidden;
+    background-image: linear-gradient( to bottom, rgba(2, 2, 2, 1) 0%, rgba(2, 2, 2, 1) 35%, rgba(17, 45, 82, 0.7) 70%, rgba(17, 45, 82, 0) 100% );
+}
+.caseDiv .container-fluid {
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.caseDiv .container-fluid {
+    max-width: 1600px;
+}
+.caseDiv .container-fluid .col-lg-4 {
+    overflow: hidden;
+    margin-top: 10px;
+}
+.caseDiv .container-fluid .case {
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+    float: left;
+    /*overflow: hidden;*/
+    margin-bottom: 10px;
+}
+.case .case-img {
+    position: relative;
+}
+.caseDiv .case .caseBlack {
+    position: absolute;
+    top: -100%;
+    /* left: 10px; */
+    /* right: 10px; */
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+}
+.caseDiv .case .caseBlack img {
+    text-align: center;
+    height: 60%;
+    width: auto;
+    margin: 4% auto 2%;
+}
+.case .caseBlack .caseTitle {
+    position: relative;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 0 0 20px;
+}
+.case .caseBlack .caseTitle .nav_right {
+    float: right;
+    margin-top: 0;
+    margin-right: 5%;
+    width: auto;
+    height: 100%;
+}
+.case .case-name {
+    margin: 0;
+    height: 34px;
+    color: white;
+    line-height: 34px;
+    font-size: 14px;
+}
+.caseDiv .case img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+.case-Title {
+    position: relative;
+    width: 100%;
+    line-height: 120px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*内容二*/
+.advantage {
+    min-height: 900px;
+    padding: 100px 0;
+    width: 100%;
+    overflow: hidden;
+}
+.advantage .advantageTitle {
+    width: 100%;
+    height: 140px;
+    line-height: 140px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.advantage .advantageBox {
+    position: relative;
+    margin-top: 20px;
+    cursor: default;
+    overflow: hidden;
+    height: 140px;
+    background: rgba(88, 132, 221, 0.75);
+}
+.advantage .advantageIMG {
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+.advantage .advantageIMG img {
+    height: 50%;
+    margin-top: 35px;
+}
+.advantage .advantageFont {
+    width: 65%;
+    height: 100%;
+    overflow-y: auto;
+    float: left;
+}
+.advantage .advantageFont .advantageFont2 {
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    padding-right: 5%;
+}
+.advantage .advantageFont .advantageFont0 {
+    color: white;
+    font-size: 20px;
+    padding-right: 5%;
+    width: 100%;
+    line-height: 30px;
+    margin-top: 25px;
+}
+.advantage .advantageFont .advantageFont1 {
+    color: white;
+    font-size: 10px;
+    padding-right: 5%;
+    width: 100%;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.advantage .advantageBox:hover {
+    background: rgba(83, 132, 228, 0.95);
+}
+
+/*内容三*/
+.service {
+    width: 100%;
+    min-height: 750px;
+    padding: 50px 0;
+    background-color: #F4F4F4;
+    overflow: hidden;
+}
+.service .serviceTitle {
+    width: 100%;
+    min-height: 140px;
+    line-height: 50px;
+    color: #272727;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 15px;
+}
+.service .serviceClass {
+    position: relative;
+    width: 100%;
+    max-width: 730px;
+    min-height: 65px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.service .serviceClass .col-lg-3 {
+    height: 65px;
+}
+.service .serviceClass .ClassBox {
+    cursor: pointer;
+    max-width: 155px;
+    min-height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    color: #515151;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid #C6C6C6;
+    font-weight: 600;
+}
+.service .serviceClass .ClassBox:hover, .service .serviceClass .ClassBoxBlue {
+    border-bottom: none;
+    color: white;
+    background: linear-gradient(to bottom, #30B49F 0%, #32A5B7 100%);
+    display: block;
+}
+.classBox1 {
+    padding-bottom: 50px;
+}
+.service .classBox1 .container {
+    min-height: 200px;
+    margin-top: 15px;
+}
+.service .classBox1-title {
+    width: 100%;
+    height: 50px;
+    line-height: 35px;
+    color: #525252;
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: 600;
+}
+.service .classBox1-title div {
+    border-bottom: 2px solid #38B0A4;
+    float: left;
+    margin-top: 15px;
+}
+.service .classBox1 .imgBox {
+    width: 100%;
+    min-height: 150px;
+    overflow: hidden;
+}
+.classBox1 .imgBox .layaairBox {
+    width: 114px;
+    height: 110px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+}
+.classBox1 .imgBox .layaairBox img {
+    width: 48px;
+    height: auto;
+}
+.classBox1 .imgBox .layaairBox p {
+    width: 100%;
+    height: 60px;
+    line-height: 18px;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #4A4A4A;
+}
+.classBox2 .container {
+    margin-top: 54px;
+    margin-bottom: 100px;
+}
+.classBox2 .col-lg-3 .classBox2Box {
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 220px;
+    cursor: pointer;
+}
+.classBox2 .col-lg-3 img {
+    width: 100%;
+}
+.classBox2 .col-lg-3 p {
+    width: 100%;
+    height: 50px;
+    line-height: 25px;
+    margin: 0;
+    margin-top: 35px;
+    color: #505050;
+    font-size: 16px;
+}  
+.classBox2 .col-lg-3 .classBox2Box:hover {
+    background-color: white;
+    box-shadow: 0px 0px 10px #E9E9E9;
+    -webkit-animation: music 300ms;
+    -webkit-animation-fill-mode: forwards;
+}
+.classBox3 .classBox3Box {
+    margin-top: 55px;
+}
+.classBox3 .classBox3Box .classBox3Box-div {
+    margin: 0 0 30px;
+}
+.classBox3 .classBox3Box .classBox3Box-a {
+    display: block;
+    border: 1px solid #d2d2d2;
+    padding: 40px 35px 0 130px;
+    color: #000;
+    background: transparent no-repeat 30px center;
+    background-size: 82px auto;
+}
+.classBox3 .classBox3Box .classBox3Box-a1 {
+    background-image: url(../img/book.png);
+}
+.classBox3 .classBox3Box h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 20px;
+    color: #000000;
+}
+.classBox3 .classBox3Box p {
+    font-size: 14px;
+    line-height: 18px;
+    height: 60px;
+}
+.classBox3 .classBox3Box .classBox3Box-a2 {
+    background-image: url(../img/book1.png);
+}
+.classBox3 .classBox3Box .classBox3Box-a3 {
+    background-image: url(../img/book4.png);
+}
+.classBox3 .classBox3Box .classBox3Box-a4 {
+    background-image: url(../img/book5.png);
+}
+.classBox4 .classBox4Box {
+    width: 100%;
+    margin-top: 100px;
+    min-height: 400px;
+    margin-bottom: -50px;
+    padding: 0 35px 110px;
+    border: 26px solid #090909;
+    border-bottom: none;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0px 0px 10px #090909;
+    overflow: hidden;
+}
+.classBox4Box .col-lg-3 {
+    text-align: center;
+    margin-top: 90px;
+}
+.classBox4 .classBox4Box a {
+    color: #505050;
+}
+.classBox4 .classBox4Box p {
+    margin: 15px 0 0;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+
+/*内容四*/
+.thirdparty {
+    min-height: 360px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 55px;
+    background-color: #38ACAC;
+}
+.thirdparty .thirdpartyTitle {
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.thirdparty .thirdpartyBrief {
+    width: 100%;
+    min-height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.thirdparty .col-lg-1 {
+    text-align: center;
+    margin-top: 25px;
+}
+.thirdparty .col-lg-1 .imgBox {
+    width: 42px;
+    height: 84px;
+    margin: 0 auto;
+}
+.thirdparty .col-lg-1 .imgBox img {
+    width: 42px;
+}
+
+/*内容五*/
+.news {
+    width: 100%;
+    min-height: 710px;
+    background-color: white;
+    padding: 80px 0;
+}
+.news .newsTitle {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #282828;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.news .newsBox {
+    max-width: 350px;
+    min-height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.news .newsBox {
+    margin-bottom: 50px;
+}
+.news .newsBox img {
+    width: 100%;
+    max-width: 340px;
+    max-height: 198px;
+}
+.news .newsBox .newsBoxTitle {
+    width: 100%;
+    min-height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #282828;
+    text-align: left;
+    padding: 0 5px;
+    margin: 10px 0;
+}
+.news .newsBox .newsBoxCentent {
+    width: 100%;
+    padding: 0 5px;
+    text-align: left;
+    font-size: 14px;
+    color: #646464;
+    line-height: 30px;
+    min-height: 120px;
+}
+.news .newsBox .newsBoxCentent a {
+    color: #1279D3;
+}
+
+/*底部*/
+ .cooperation {
+  position: relative;
+  width: 100%;
+  min-height: 420px;
+  background-color: #000;
+  padding: 50px 0; }
+   .cooperation .bot_title {
+    position: relative;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px; }
+   .cooperation .ranking {
+    position: relative;
+    width: 100%;
+    min-height: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px; }
+   .cooperation .col-lg-2 {
+    height: 80px;
+    text-align: center; }
+     .cooperation .col-lg-2 img {
+      max-width: 150px;
+      width: 100%; }
+
+#laya_foot .foot_div_1, #laya_foot .foot_div_2, #laya_foot .foot_div_3, #laya_foot .foot_div_4 {
+float: left;
+min-height: 30px;
+line-height: 30px; }
+
+#laya_foot .foot_div_1 a, #laya_foot .foot_div_2 p, #laya_foot .foot_div_3 p, #laya_foot .foot_div_4 p {
+float: left;
+margin-right: 30px; }
+
+#laya_foot .foot_div_4 a p, #laya_foot .foot_div_4 p, #laya_foot .foot_div_4 span {
+color: #707480; }
+
+#laya_foot .foot_div_4 p {
+margin: 0; }
+
+#laya_foot .foot_div_4 a p {
+margin: 0 15px; }
+
+#laya_foot p {
+color: #a2a2a2;
+margin: 0;
+font-size: 14px; }
+
+#laya_foot {
+top: auto;
+position: relative;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: auto;
+min-width: 310px;
+min-height: 170px;
+padding: 30px 0;
+background-color: #3B3E43;
+border-top: 1px solid #4F5257; }
+
+#laya_foot .foot_div_4 {
+width: 100%; }
+
+.wx {
+position: absolute;
+right: 5px;
+width: 100px;
+height: 120px;
+text-align: center; }
+.wx img {
+  width: 100px;
+  height: 100px; }
+.wx p {
+  width: 100px;
+  height: 20px;
+  line-height: 15px;
+  padding-top: 10px;
+  text-align: center;
+  color: #a2a2a2;
+  margin: 0;
+  font-size: 14px; }
+
+@media (min-width: 768px) {
+.container {
+  width: 750px; } }
+@media (min-width: 992px) {
+.container {
+  width: 970px; } }
+@media screen and (min-width: 1200px) {
+.container {
+  width: 1170px; } }
+@media only screen and (max-width: 991px) {
+.cententCentent {
+  margin-top: 30px !important; } }
+@media only screen and (max-width: 768px) {
+.layapositiontit {
+  text-align: center; }
+
+.wx {
+  display: none; } }
