@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<title>Laya_新闻</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE,Chrome=1;">
+	<link rel="stylesheet" type="text/css" href="css/news.css">
+	<link rel="shortcut icon" href="https://official.layabox.com/public/img/favicon.ico">
+	<body>
+		<div class="new_box">
+			<h2 class="new_title">新闻动态</h2>
+			<ul class="new_news">
+				
+			</ul>
+			<ul class="new_trends">
+												
+			</ul>
+			<ul class="dian">
+				
+			</ul>
+		</div>
+		<script type="text/template" id="template1">
+			<li>
+				<a href="javascript:;">
+					<div class="re_box">
+						<img src="<%=img%>" />
+						<span class="news_text"><%=text%></span>
+					</div>
+				</a>
+			</li>
+		</script>
+		<script type="text/template" id="template2">
+			<li>
+				<div class="n_left_img">
+					<a href="javascript:;">
+						<div>
+							<img src="<%=img%>" />
+						</div>
+					</a>
+				</div>
+				<div class="n_top_title">
+					<a href="javascript:;"><%=title%></a>
+					<div class="n_top_time"><%=time%></div>
+					<p class="n_top_text"><%=text%></p>
+				</div>
+				<div class="n_right_btn">
+					<a href="javascript:;">查看详情</a>
+				</div>
+			</li>
+		</script>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/underscore-min.js"></script>
+		<script src="data/news.json"></script>
+		<script src="js/news.js"></script>
+	</body>
+</html>
+
