@@ -5,12 +5,74 @@
 		<title>Laya_案例</title>
 		<link rel="shortcut icon" href="https://official.layabox.com/public/img/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/anli.css"/>
-		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
-		<script type="text/javascript" src="js/anli.js" ></script>
 	</head>
 	<body>
 		<div class="lmm-top">
-			<img src="img/lb.jpg"/>
+			<img src="img/lmm-lb.jpg"/>
 		</div>
+		<section class="case">
+			<div class="container">
+				<div class="row">
+					<h3 class="title">引擎案例（部分上线作品）</h3>
+				</div>
+				<div class="row gamelist">
+					<div class="game-category">
+						<div class="tab-tit active">
+							2D案例
+						</div>
+						<div class="tab-tit">
+							3D案例
+						</div>
+					</div>
+					<ul class="tab-con clearfix select" id="box1">
+						<!--<li class="con-lg">
+							<a href="javascript:;">
+								<div class="game_box">
+									<img src="img/lmm-bg.png" class="game_bg"/>
+									<img src="img/lmm-04.jpg" class="game_img"/>
+									<div class="game_qr">
+										<img src="img/lmm-4.jpg"/>
+									</div>
+								</div>
+							</a>
+							<div class="game_title">
+								<div class="game_name">
+									《全民打雪球》
+								</div>
+								<p>
+									《全民打雪球》是一款多人在线的打雪仗类休闲对战游戏，游戏集休闲益智策略于一体，画面精美、上手简单、休闲有趣。
+								</p>
+							</div>
+						</li>-->
+					</ul>
+					<ul class="tab-con clearfix" id="box2"></ul>
+				</div>
+			</div>
+		</section>
+		<script type="text/template" id="template">
+			<li class="con-lg">
+				<a href="javascript:;">
+					<div class="game_box">
+						<img src="img/lmm-bg.png" class="game_bg"/>
+						<img src="img/<%=img%>" class="game_img"/>
+						<div class="game_qr">
+							<img src="img/<%=bgimg%>"/>
+						</div>
+					</div>
+				</a>
+				<div class="game_title">
+					<div class="game_name">
+						<%=tit%>
+					</div>
+					<p>
+						<%=con%>
+					</p>
+				</div>
+			</li>
+		</script>
+		<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+		<script src="data/anli.json"></script>
+		<script type="text/javascript" src="js/underscore-min.js" ></script>
+		<script type="text/javascript" src="js/anli.js" ></script>
 	</body>
 </html>
