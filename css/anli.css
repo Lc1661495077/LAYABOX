@@ -8,4 +8,121 @@
   .lmm-top img {
     width: 100%; }
 
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+img {
+  vertical-align: middle; }
+
+.case {
+  position: relative;
+  margin-top: 7%;
+  padding-bottom: 220px; }
+  .case .container {
+    width: 1170px;
+    margin: 0 auto; }
+    .case .container .row .title {
+      text-align: center;
+      font-size: 30px;
+      height: 50px;
+      line-height: 50px; }
+    .case .container .gamelist {
+      width: 100%;
+      min-height: 600px;
+      margin-top: 50px; }
+      .case .container .gamelist .game-category {
+        margin: 0 0 45px;
+        text-align: center; }
+        .case .container .gamelist .game-category .tab-tit {
+          position: relative;
+          display: inline-block;
+          margin: 0 40px;
+          padding-bottom: 18px;
+          font-weight: bold;
+          font-size: 18px;
+          color: #5d5d5d;
+          z-index: 3;
+          cursor: pointer; }
+        .case .container .gamelist .game-category .tab-tit.active {
+          color: #46a4f6;
+          border-bottom: 4px solid #46a4f6; }
+      .case .container .gamelist .game-category:after {
+        content: '\200B';
+        height: 2px;
+        position: absolute;
+        top: 145px;
+        left: 0;
+        right: 0;
+        background: #ececec;
+        overflow: hidden;
+        z-index: 1; }
+      .case .container .gamelist .tab-con.select {
+        display: block; }
+      .case .container .gamelist .tab-con .con-lg {
+        float: left;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 30%; }
+        .case .container .gamelist .tab-con .con-lg .game_box {
+          position: relative;
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          border-radius: 12px;
+          max-width: 400px;
+          margin: 0 auto; }
+          .case .container .gamelist .tab-con .con-lg .game_box .game_bg {
+            width: 100%;
+            height: auto; }
+          .case .container .gamelist .tab-con .con-lg .game_box .game_img {
+            position: absolute;
+            top: 5%;
+            left: 0;
+            right: 0;
+            width: 74%;
+            height: auto;
+            margin: 0 auto; }
+          .case .container .gamelist .tab-con .con-lg .game_box .game_qr {
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border-radius: 12px;
+            background-color: rgba(97, 203, 175, 0.8);
+            /* background-color: #61CBAF; */
+            /* opacity: 0.8; */ }
+            .case .container .gamelist .tab-con .con-lg .game_box .game_qr img {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              margin: auto;
+              width: auto;
+              height: 90%; }
+        .case .container .gamelist .tab-con .con-lg .game_title {
+          max-width: 400px;
+          margin: 0 auto; }
+          .case .container .gamelist .tab-con .con-lg .game_title .game_name {
+            color: #5D5D5D;
+            font-size: 20px;
+            font-weight: 600;
+            height: 50px;
+            line-height: 50px; }
+          .case .container .gamelist .tab-con .con-lg .game_title p {
+            color: #5D5D5D;
+            font-size: 14px;
+            padding: 0 10px;
+            line-height: 22px;
+            height: 90px;
+            overflow: hidden; }
+
 /*# sourceMappingURL=anli.css.map */
