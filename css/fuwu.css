@@ -1,0 +1,323 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html body{
+	font-size: 14px;
+}
+body{
+	background-color: black;
+}
+/*webkit*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #1A1A1A;
+}
+
+.top{
+	width: 100%;
+}
+.top>img{
+	width: 100%;
+	height: auto;
+}
+.conternar{
+	width: 80%;
+	/*border:1px solid red;*/
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.conternar .nar_left{
+	width: 40%;
+	min-height: 200px;
+    padding: 1rem 2rem 0;
+	
+}
+.conternar .nar_right{
+	width: 40%;
+	/*border: 1px solid red;*/
+	padding: 1rem 2rem 0;
+}
+.nar_left h2{
+ 	 width: 100%;
+    min-height: 3rem;
+    line-height: 3rem;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.nar_left p{
+	width: 100%;
+    min-height: 30px;
+    line-height: 30px;
+    color: #a0a0a0;
+    font-size: .9rem;
+    margin-bottom: 20px;
+}
+.nar_right img{
+	width: 100%;
+	height: auto;
+}
+.conternar1{
+	width: 80%;
+	/*border:1px solid red;*/
+	margin: 1.2rem auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.conternar1 .nar_left1{
+	width: 40%;
+    padding: 1rem 2rem 0;
+    /*border: 1px solid red;*/
+	
+}
+.conternar1 .nar_right1,.conternar1 .nar_right5{
+	width: 40%;
+	/*border: 1px solid red;*/
+	padding: 20px 35px 0;
+	min-height: 200px;
+}
+.nar_right1 h2,.nar_right5 h2{
+ 	width: 100%;
+    min-height: 80px;
+    line-height: 80px;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.nar_right1 p,.nar_right5 p{
+	width: 100%;
+    min-height: 30px;
+    line-height: 30px;
+    color: #a0a0a0;
+    font-size: .9rem;
+    margin-bottom: 20px;
+}
+.nar_left1 img{
+	width: 100%;
+	height: auto;
+}
+.nar_right1 a{
+	padding: 7px 25px;
+    color: white;
+    font-size: 14px;
+    background-color: #38B49F;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.nar_right1 a:hover{
+	background-color: #2e8576;
+	color: #1f405E;
+}
+.nar_beijing{
+	width: 100%;
+	margin-top: 100px;
+	padding: 2rem 0px;
+	background-color: #252525;
+}
+.nar_right5 a{
+	float: left;
+    border: 1px solid #464646;
+    margin-bottom: 8px;
+    padding: .7rem 0 .7rem 3rem;
+    color: #464646;
+    line-height: 2rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: 13px center;
+    cursor: pointer;
+}
+.as{
+	width: 100%;
+}
+.as a{
+	width: 30%;
+	margin: 5px;
+}
+.nar_right5 .a_1{
+	background-image: url(../img/lc_service-api.png);
+}
+.nar_right5 .a_2{
+	background-image: url(../img/lc_service-demo.png);
+}
+.nar_right5 .a_3{
+	background-image: url(../img/lc_service-doc.png);
+}
+.nar_right5 .a_1:hover{
+	background-image: url(../img/lc_service-api-hover.png);
+	background-color: #2da492;
+	color: white;
+}
+.nar_right5 .a_2:hover{
+	background-image: url(../img/lc_service-demo-hover.png);
+	background-color: #2da492;
+	color: white;
+}
+.nar_right5 .a_3:hover{
+	background-image: url(../img/lc_service-doc-hover.png);
+	background-color: #2da492;
+	color: white;
+}
+.bottom{
+	width: 100%;
+	background-color: #f0f0f0;
+	padding: 150px 0;
+}
+.bottomnar h2{
+	margin-bottom: 19px;
+    font-size: 2rem;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 500;
+}
+.bottomnar p{
+	width: 60%;
+    margin: 0 auto 3rem;
+    color: #676767;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+}
+.bottomnav{
+	width: 80%;
+	margin: 15px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.bottomnav div{
+	width: 45%;
+	padding: 6px 11px;
+    background: #fefefe;
+    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+}
+.bottomnav h3{
+	font-size: 1.7rem;
+    line-height: 64px;
+    color: #2da592;
+    text-align: center;
+}
+.bottomnav ul li{
+	float: left;
+    width: 48.5%;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 3px 3px;
+}
+.bottomnav ul li dl{
+	width: 50%;
+	height: 88px;
+    padding-left: 66px;
+    padding-right: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    background: #f4f4f4 no-repeat 0 center;
+}
+.bottomnav ul li dl dt{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.42857143;
+}
+.bottomnav .ido_1{
+	background-image: url(../img/lc_1.png);
+}
+.bottomnav .ido_2{
+	background-image: url(../img/lc_2.png);
+}
+.bottomnav .ido_3{
+	background-image: url(../img/lc_3.png);
+}
+.bottomnav .ido_4{
+	background-image: url(../img/lc_4.png);
+}
+.bottomnav .ido_5{
+	background-image: url(../img/lc_5.png);
+}
+.bottomnav .ido_6{
+	background-image: url(../img/lc_6.png);
+}
+.bottomnav .ido_7{
+	background-image: url(../img/lc_7.png);
+}
+.bottomnav .ido_8{
+	background-image: url(../img/lc_8.png);
+}
+
+.bottomnav1{
+	width: 80%;
+	margin: 15px auto;
+	display: flex;
+	justify-content: space-between;
+	/*border: 1px solid red;*/
+}
+.bottomnav1 h3{
+	font-size: 24px;
+    line-height: 64px;
+    color: #2da592;
+    text-align: center;
+}
+.bottomnav1 div{
+	width: 45%;
+	padding: 6px 11px;
+    background: #fefefe;
+    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
+}
+.bottomnav1 .nav_ul_2 li{  
+    float: none;
+     width: 100%;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 3px 3px;
+}
+.bottomnav1 .nav_ul_2 li dl{
+	width: 100%;
+	height: 88px;
+    padding-left: 66px;
+    padding-right: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    background: #f4f4f4 no-repeat 0 center;
+}
+.bottomnav1 .nav_ul_2 li dl dt{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.42857143;
+}
+.bottomnav1 .nav_ul_2 li dl dd{
+	display: block;
+	width: 100%;
+	color: #676767;
+	margin-left: 0;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+.bottomnav1 .nav_ul_2 .ido_9{
+	background-image: url(../img/lc_9.png);
+}
+.bottomnav1 .nav_ul_2 .ido_10{
+	background-image: url(../img/lc_10.png);
+}
+.bottomnav1 .nav_ul_2 .ido_11{
+	background-image: url(../img/lc_11.png);
+}
+.bottomnav1 .nav_ul_2 .ido_12{
+	background-image: url(../img/lc_12.png);
+}
