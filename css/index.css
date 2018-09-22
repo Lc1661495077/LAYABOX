@@ -4,14 +4,12 @@
 .fr {
   float: right; }
 
-.head_nav_w {
-  width: 100%;
-  height: 68px;
-  background: #1a1a1a;
-  position: fixed;
-  top: 0px;
-  z-index: 10; }
+@media (min-width: 320px) {
+  .novie #bl {
+    width: 100%; }
 
+  .imgs h2 a {
+    width: 100%; } }
 @media (min-width: 768px) {
   .container {
     width: 750px; } }
@@ -26,21 +24,6 @@
   display: table;
   content: " "; }
 
-.head_nav {
-  margin: 0 auto;
-  height: 100%; }
-  .head_nav ul {
-    height: 100%; }
-  .head_nav ul li {
-    float: left;
-    line-height: 68px; }
-  .head_nav img {
-    padding: 16px 10px;
-    height: auto; }
-  .head_nav ul li a {
-    padding: 15px 10px;
-    color: #fff; }
-
 .laya {
   width: 100%;
   height: auto;
@@ -48,7 +31,7 @@
 
 .laya-main {
   padding: 33px 0 83px;
-  background: url(../img/bg.jpg) no-repeat center center;
+  background: url(../img/LFTbg.jpg) no-repeat center center;
   background-size: cover; }
   .laya-main .imgs {
     width: 58%;
@@ -107,13 +90,13 @@
   padding-left: 35px; }
 
 .viebox a {
-  display: block;
   width: 110px;
   height: 110px;
   border-radius: 55px;
   background-color: #46a5f7;
+  margin: 0 auto;
   text-align: center;
-  float: left; }
+  display: block; }
 .viebox img {
   width: 50px;
   height: 50px;
@@ -128,5 +111,100 @@
   color: #454545;
   margin: 0;
   padding: 0; }
+.viebox .col-lg-2 {
+  height: 140px;
+  margin-bottom: 30px; }
+
+.back {
+  background-color: #46a5f7; }
+
+.novie #bl {
+  left: 0px; }
+.novie #tll {
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 0px; }
+.novie .novicbox .tisp {
+  text-align: right; }
+
+.back .viebox a {
+  background-color: #fff; }
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #fff; }
+
+::-webkit-scrollbar-track {
+  border-radius: 0; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: #1a1a1a; }
+
+.bots {
+  position: relative;
+  width: 100%;
+  min-height: 620px;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center; }
+
+.bots .background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+
+.tistle {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #404040;
+  font-size: 40px; }
+
+.teachingBox {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  overflow: hidden;
+  margin: 20px auto;
+  margin: 15px auto; }
+
+.teachingQR {
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #222222;
+  opacity: 0.85;
+  text-align: center; }
+  .teachingQR img {
+    width: auto;
+    height: 80%;
+    margin: 5% auto; }
+
+.teachingIMG {
+  width: 100%;
+  max-width: 350px;
+  box-shadow: 0px 0px 10px #909090; }
+
+.bots .col-lg-4 p {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: white;
+  margin: 15px auto; }
+.bots .col-lg-4 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px; }
+.bots .container {
+  margin-top: 120px; }
 
 /*# sourceMappingURL=index.css.map */

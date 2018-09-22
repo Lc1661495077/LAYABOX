@@ -11,34 +11,39 @@
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/Initialization.css">
-    <link rel="stylesheet" href="css/animate.min">
-    <style type="text/css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/foot.css">
 
-    </style>
 
 </head>
 
 <body>
-    <div class="head_nav_w ">
-        <div class="head_nav after container">
-            <a href="#" class="fl"><img src="img/LFTlogo.png" alt=""></a>
-            <ul class="fl">
-                <li><a href="#">首页</a></li>
-                <li><a href="#">引擎示例</a></li>
-                <li><a href="#">技术文档</a></li>
-                <li><a href="#">API</a></li>
-                <li><a href="#">腾讯课堂教学</a></li>
-                <li><a href="#">搜索</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">引擎下载</a></li>
+    <nav id="laya_nav">
+        <div class="container">
+            <div class="navbar_header">
+                <!-- 按钮 -->
+                <button class="navbar_toggle">三</button>
+                <!-- 图片 -->
+                <a href="#" class="navbar_bad">
+                    <img src="img/LAYABOX_Logo.png">
+                </a>
+            </div>
+            <ul class="nav_u">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">案例</a></li>
+                <li><a href="#">新闻</a></li>
+                <li><a href="#">开发者中心</a></li>
+                <li><a href="#">开发者社区</a></li>
+                <li><a href="#">关于我们</a></li>
             </ul>
-            <ul id="navbar-nav-right" class="fr">
-                <li><a href="#">官网</a></li>
-                <li><a href="#">社区</a></li>
+            <ul class="nav_u nav_right">
                 <li><a href="#">语言</a></li>
             </ul>
         </div>
-    </div>
+    </nav>
+
     <div class="laya">
         <div class="laya-main">
             <div class="imgs">
@@ -47,6 +52,9 @@
             </div>
         </div>
     </div>
+
+
+
     <div class="novie">
         <img class="bgs" src="img/LFTijs.jpg" alt="">
         <div class="viebox container">
@@ -54,28 +62,213 @@
                 <div class="title">新手入门</div>
                 <p>通过如下步骤,可以使你快上手LayaBox开发<br>完成小白到高手的蜕变</p>
             </div>
-            <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-6 "><img src="img/LFTban2.png" alt="">
-                <p>入门文档</p>
-            </a>
-            <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-6 "><img src="img/LFTban3.png" alt="">
-                <p>引擎基础教学</p>
-            </a>
-            <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-6 "><img src="img/LFTban6.png" alt="">
-                <p>HTML5打包APP</p>
-            </a>
-            <a href="#" class="col-lg-2 col-md-3 col-sm-3 col-xs-6 "><img src="imgLFT/ben4.png" alt="">
-                <p>游戏实战开发</p>
-            </a>
+            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 wow fadeInLeft animated" data-wow-delay="100ms">
+                <a href="#" class="novice"><img src="img/LFTban2.png" alt="">
+                    <p>入门文档</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 wow fadeInLeft animated" data-wow-delay="200ms">
+                <a href="#" class="novice"><img src="img/LFTban3.png" alt="">
+                    <p>引擎基础教学</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 wow fadeInLeft animated" data-wow-delay="300ms">
+                <a href="#" class="novice"><img src="img/LFTban6.png ">
+                    <p>HTML5打包APP</p>
+                </a>
+            </div>
+            <div class="
+                        col-lg-2 col-md-3 col-sm-3 col-xs-6 wow fadeInLeft animated"
+                data-wow-delay="400ms">
+                <a href="#" class="novice"><img src="img/LFTben4.png" alt="">
+                    <p>游戏实战开发</p>
+                </a>
+            </div>
         </div>
     </div>
 
+
+
+
+
+    <div class="novie back">
+        <img class="bgs" id="bl" src="img/LFTll.jpg" alt="">
+        <div class="viebox container">
+            <div class="novicbox after">
+                <div class="title" id="tll">成长之路</div>
+                <p class="tisp">
+                    通过Layabox官方的文档、API、示例学习获得LayaAir引擎的全面教学知识。<br>学习过程中遇到的任何疑问都可以在社区中获得解答。 </p>
+            </div>
+            <div class="col-lg-offset-4 col-lg-2 col-md-3 col-sm-3 col-xs-6 wow fadeInRight animated" data-wow-delay="100ms">
+                <a href="#" class="novice"><img src="img/LFTfille.png" alt="">
+                    <p>文档</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 wow fadeInRight  animated" data-wow-delay="200ms">
+                <a href="#" class="novice"><img src="img/LFTzo.png" alt="">
+                    <p>API</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 wow fadeInRight  animated" data-wow-delay="300ms">
+                <a href="#" class="novice"><img src="img/FLTban.png">
+                    <p>示例</p>
+                </a>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-3 col-xs-6 wow fadeInRight  animated" data-wow-delay="400ms">
+                <a href="#" class="novice"><img src="img/LFTban5.png" alt="">
+                    <p>社区</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bots">
+        <img class="background" src="img/LFTgame2.jpg" style="width: 100%; height: auto;">
+        <div class="tistle">游戏DEMO</div>
+        <div class="container">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp  animated" data-wow-delay="100ms">
+
+                <a href="#">
+                    <div class="teachingBox">
+                        <div class="teachingQR">
+                            <img src="img/LFT2DQR.png">
+                        </div>
+                        <img class="teachingIMG" src="img/LFTgame3.jpg">
+                    </div>
+                </a>
+                <p>2D</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp  animated" data-wow-delay="100ms">
+
+                <a href="#">
+                    <div class="teachingBox">
+                        <div class="teachingQR">
+                            <img src="img/LFT2DQR.png">
+                        </div>
+                        <img class="teachingIMG" src="img/LFTgame4.jpg">
+                    </div>
+                </a>
+                <p>2D</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInUp  animated" data-wow-delay="100ms">
+
+                <a href="#">
+                    <div class="teachingBox">
+                        <div class="teachingQR">
+                            <img src="img/LFT2DQR.png">
+                        </div>
+                        <img class="teachingIMG" src="img/LFTgame5.jpg">
+                    </div>
+                </a>
+                <p>2D</p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <section class="cooperation">
+        <div class="bot_title">合作伙伴</div>
+        <div class="ranking">（排序不分前后）</div>
+        <div class="container">
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/1.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/2.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/3.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/4.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/5.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/6.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/7.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/8.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/9.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/10.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/11.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/12.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/13.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/14.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/15.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/16.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/17.jpg"></div>
+            <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6"><img src="img/18.jpg"></div>
+        </div>
+    </section>
+    <footer id="laya_foot" style="position: relative;">
+        <div class="container">
+            <div class="foot_div_1">
+                <a href="#">
+                    <p>公司简介</p>
+                </a>
+                <a href="#">
+                    <p>联系方式</p>
+                </a>
+                <a href="#">
+                    <p>人才招聘</p>
+                </a>
+            </div>
+            <div class="foot_div_2">
+                <p>|</p>
+                <p>商务合作：bd@layabox.com</p>
+            </div>
+            <div class="foot_div_2">
+                <p>LayaAir引擎2D交流QQ群：104144216（已满）</p>
+                <p>LayaAir引擎2D交流QQ群2群：135887157</p>
+                <p>LayaAir引擎3D&VR交流QQ群：343966316</p>
+            </div>
+            <div class="foot_div_3">
+                <p>Copyright © 2014-2017 Layabox Inc. 京ICP备15008163号-1</p>
+            </div>
+            <div class="foot_div_4">
+                <p class="friendship">友情链接</p>
+                <a href="#">
+                    <p>龙图教育</p>
+                </a>
+                <p class="pline">|</p>
+                <a href="#">
+                    <p>游戏蛮牛</p>
+                </a>
+                <p class="pline">|</p>
+                <a href="#">
+                    <p>独游网</p>
+                </a>
+                <p class="pline">|</p>
+                <a href="#">
+                    <p>伍游网</p>
+                </a>
+                <p class="pline">|</p>
+                <a href="#">
+                    <p>我学院网</p>
+                </a>
+                <p class="pline">|</p>
+                <a href="#">
+                    <p>w3cschool</p>
+                </a>
+                <p class="pline">|</p>
+                <a href="#">
+                    <p>很快微信开发者社区</p>
+                </a>
+                <p class="pline">|</p>
+                <a href="#">
+                    <p>一轮文档搜索</p>
+                </a>
+            </div>
+            <div class="wx">
+                <img src="img/LAYABOX_QRcode.jpg">
+                <p>微信二维码</p>
+            </div>
+        </div>
+    </footer>
+
+
+
     <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
-    <!--   <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <script src="js/wow.min.js"></script>
     <script type="text/javascript">
         new WOW().init();
-
     </script>
 </body>
 
