@@ -269,6 +269,12 @@
     <script src="js/wow.min.js"></script>
     <script type="text/javascript">
         new WOW().init();
+        $(".container .col-lg-4").mouseenter(function () {
+            $(this).children().children(".teachingBox").children(".teachingQR").css("top", "0px");
+        }).mouseleave(function () {
+            $(this).children().children(".teachingBox").children(".teachingQR").css("top", "-100%");
+        })
+
     </script>
 </body>
 

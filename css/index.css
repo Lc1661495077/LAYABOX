@@ -181,7 +181,14 @@
   height: 100%;
   background-color: #222222;
   opacity: 0.85;
-  text-align: center; }
+  text-align: center; 
+  transition: all 500ms linear;
+/* Firefox 4 */
+-moz-transition:all 500ms linear;
+/* Safari and Chrome */
+-webkit-transition:all 500ms linear;
+/* Opera */
+-o-transition:all 500ms linear;}
   .teachingQR img {
     width: auto;
     height: 80%;
