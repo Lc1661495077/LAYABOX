@@ -12,6 +12,9 @@ a {
 body {
   overflow-x: hidden;
 }
+iframe{
+	min-height: 650px;
+}
 body .new_box {
   width: 70%;
   margin: 0 auto;
@@ -159,4 +162,19 @@ body .new_box .dian li {
   color: #FF6B08;
   padding: 6px 12px;
   border: 1px solid #ddd;
+}
+/*webkit*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #1A1A1A;
 }

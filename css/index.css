@@ -23,7 +23,6 @@
 .container:before {
   display: table;
   content: " "; }
-
 .laya {
   width: 100%;
   height: auto;
