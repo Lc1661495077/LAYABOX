@@ -1,0 +1,106 @@
+ .cooperation {
+  position: relative;
+  width: 100%;
+  min-height: 420px;
+  background-color: #000;
+  padding: 50px 0; }
+   .cooperation .bot_title {
+    position: relative;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px; }
+   .cooperation .ranking {
+    position: relative;
+    width: 100%;
+    min-height: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px; }
+   .cooperation .col-lg-2 {
+    height: 80px;
+    text-align: center; }
+     .cooperation .col-lg-2 img {
+      max-width: 150px;
+      width: 100%; }
+
+#laya_foot .foot_div_1, #laya_foot .foot_div_2, #laya_foot .foot_div_3, #laya_foot .foot_div_4 {
+float: left;
+min-height: 30px;
+line-height: 30px; }
+
+#laya_foot .foot_div_1 a, #laya_foot .foot_div_2 p, #laya_foot .foot_div_3 p, #laya_foot .foot_div_4 p {
+float: left;
+margin-right: 30px; }
+
+#laya_foot .foot_div_4 a p, #laya_foot .foot_div_4 p, #laya_foot .foot_div_4 span {
+color: #707480; }
+
+#laya_foot .foot_div_4 p {
+margin: 0; }
+
+#laya_foot .foot_div_4 a p {
+margin: 0 15px; }
+
+#laya_foot p {
+color: #a2a2a2;
+margin: 0;
+font-size: 14px; }
+
+#laya_foot {
+top: auto;
+position: relative;
+left: 0;
+right: 0;
+bottom: 0;
+width: 100%;
+height: auto;
+min-width: 310px;
+min-height: 170px;
+padding: 30px 0;
+background-color: #3B3E43;
+border-top: 1px solid #4F5257; }
+
+#laya_foot .foot_div_4 {
+width: 100%; }
+
+.wx {
+position: absolute;
+right: 5px;
+width: 100px;
+height: 120px;
+text-align: center; }
+.wx img {
+  width: 100px;
+  height: 100px; }
+.wx p {
+  width: 100px;
+  height: 20px;
+  line-height: 15px;
+  padding-top: 10px;
+  text-align: center;
+  color: #a2a2a2;
+  margin: 0;
+  font-size: 14px; }
+
+@media (min-width: 768px) {
+.container {
+  width: 750px; } }
+@media (min-width: 992px) {
+.container {
+  width: 970px; } }
+@media screen and (min-width: 1200px) {
+.container {
+  width: 1170px; } }
+@media only screen and (max-width: 991px) {
+.cententCentent {
+  margin-top: 30px !important; } }
+@media only screen and (max-width: 768px) {
+.layapositiontit {
+  text-align: center; }
+
+.wx {
+  display: none; } }
