@@ -1,0 +1,7 @@
+.case .container {
+        width: 970px;
+    } 
+.case .container .gamelist .tab-con .con-lg {
+	float: left;
+	width: 45%;
+}
