@@ -1,0 +1,25 @@
+body .new_box {
+  width: 100%;
+}
+body .new_box .new_news li {
+  width: 100%;
+}
+body .new_box .new_trends li .n_left_img {
+  width: 50%;
+}
+body .new_box .new_trends li .n_left_img a div {
+  height: auto;
+}
+body .new_box .new_trends li .n_left_img a div img {
+  width: 100%;
+  height: auto;
+}
+body .new_box .new_trends li .n_top_title {
+  width: 50%;
+}
+body .new_box .new_trends li .n_top_title .n_top_text {
+  font-size: 0;
+}
+body .new_box .new_trends li .n_right_btn {
+  display: none;
+}
