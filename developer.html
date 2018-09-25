@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/top.css">
     <link rel="stylesheet" href="foot/css/foot.css">
-
-
 </head>
 
 <body>
@@ -268,8 +266,16 @@
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/nav_top.js"></script>
     <script type="text/javascript">
         new WOW().init();
+        $(".container .col-lg-4").mouseenter(function () {
+            $(this).children().children(".teachingBox").children(".teachingQR").css("top", "0px");
+        }).mouseleave(function () {
+            $(this).children().children(".teachingBox").children(".teachingQR").css("top", "-100%");
+        })
+
+
     </script>
 </body>
 
