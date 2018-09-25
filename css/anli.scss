@@ -26,9 +26,9 @@ img {
 .case {
     position: relative;
     margin-top: 7%;
-    padding-bottom: 220px;
+//  padding-bottom: 220px;
     .container_lmm {
-        width:100%; 
+        width:80%; 
         margin: 0 auto;
         .row {
             .title {
@@ -65,7 +65,7 @@ img {
                 content: '\200B';
                 height: 2px;
                 position: absolute;
-                top: 145px;
+                top: 175px;
                 left: 0;
                 right: 0;
                 background: #ececec;
@@ -76,13 +76,15 @@ img {
                 display: block;
             }
             .tab-con {
+                width: 100%;
                 .con-lg {
                     float: left;
                     position: relative;
                     min-height: 1px;
                     padding-right: 15px;
                     padding-left: 15px;
-                    width: 30%;
+                    width: 33.33%;
+                    box-sizing: border-box;
                     .game_box {
                         position: relative;
                         width: 100%;

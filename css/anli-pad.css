@@ -4,5 +4,6 @@
     } 
 .case .container_lmm .gamelist .tab-con .con-lg {
 	float: left;
-	width: 45%;
+	width: 50%;
+	box-sizing: border-box;
 }
