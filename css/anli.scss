@@ -7,6 +7,7 @@
     height: auto;
     img {
         width: 100%;
+        height: auto;
     }
 }
 ul li {
@@ -26,23 +27,8 @@ img {
     position: relative;
     margin-top: 7%;
     padding-bottom: 220px;
-//  @media (min-width: 1200px) {
-//      .container {
-//          width: 1170px;
-//      }
-//  }
-//  @media (min-width: 992px){
-//     .container {
-//          width: 970px;
-//      } 
-//  } 
-//  @media (min-width: 768px){
-//     .container {
-//          width: 750px;
-//      } 
-//  } 
-    .container {
-        width: 1170px;
+    .container_lmm {
+        width:100%; 
         margin: 0 auto;
         .row {
             .title {
@@ -103,7 +89,7 @@ img {
                         height: auto;
                         overflow: hidden;
                         border-radius: 12px;
-                        max-width: 400px;
+//                      max-width: 400px;
                         margin: 0 auto;
                         .game_bg {
                             width: 100%;
@@ -136,13 +122,13 @@ img {
                                 right: 0;
                                 bottom: 0;
                                 margin: auto;
-                                width: auto;
-                                height: 90%;
+                                width: 100%;
+                                height: auto;
                             }
                         }
                     }
                     .game_title {
-                        max-width: 400px;
+//                      max-width: 400px;
                         margin: 0 auto;
                         .game_name {
                             color: #5D5D5D;
