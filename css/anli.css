@@ -109,8 +109,8 @@ img {
               right: 0;
               bottom: 0;
               margin: auto;
-              width: 100%;
-              height: auto; }
+              width: auto;
+              height: 90%; }
         .case .container_lmm .gamelist .tab-con .con-lg .game_title {
           margin: 0 auto; }
           .case .container_lmm .gamelist .tab-con .con-lg .game_title .game_name {
