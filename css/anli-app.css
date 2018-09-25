@@ -1,0 +1,11 @@
+.case .container_lmm {
+        width: 100%;
+    } 
+    .case .container_lmm .gamelist .tab-con .con-lg {
+    	float: left;
+		width: 100%;
+		box-sizing: border-box;
+	}
+iframe{
+	min-height: 1420px;
+}

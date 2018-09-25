@@ -1,0 +1,8 @@
+.case .container_lmm {
+        width: 100%;
+        padding: 0;
+    } 
+.case .container_lmm .gamelist .tab-con .con-lg {
+	float: left;
+	width: 45%;
+}

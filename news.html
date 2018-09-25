@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<title>Laya_新闻</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE,Chrome=1;">
+	<link rel="stylesheet" type="text/css" href="css/top.css"/>
+	<link rel="stylesheet" type="text/css" href="css/news.css">
+	<link rel="stylesheet" type="text/css" href="foot/css/foot.css"/>
+	<link rel="shortcut icon" href="https://official.layabox.com/public/img/favicon.ico">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width:768px)" href="css/news-min.css"/>
+	<body>
+		<nav id="laya_nav">
+			<div class="container">
+				<div class="navbar_header">
+					<!-- 按钮 -->
+					<button class="navbar_toggle">三</button>
+					<!-- 图片 -->
+					<a href="#" class="navbar_bad">
+						<img src="img/LAYABOX_Logo.png">
+					</a>
+				</div>
+				<ul class="nav_u">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="fuwu.html">服务</a></li>
+					<li><a href="anli.html">案例</a></li>
+					<li><a href="news.html">新闻</a></li>
+					<li><a href="developer.html">开发者中心</a></li>
+					<li><a href="javascript:;">开发者社区</a></li>
+					<li><a href="gywm.html">关于我们</a></li>
+				</ul>
+				<ul class="nav_u nav_right">
+					<li><a href="index.html">语言</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="new_box">
+			<h2 class="new_title">新闻动态</h2>
+			<ul class="new_news">
+				
+			</ul>
+			<ul class="new_trends">
+												
+			</ul>
+			<ul class="dian">
+				
+			</ul>
+		</div>
+		<footer id="laya_foot" style="position: relative;">
+		<div class="container">
+			<div class="foot_div_1">
+				<a href="#"><p>公司简介</p></a>
+				<a href="#"><p>联系方式</p></a>
+				<a href="#"><p>人才招聘</p></a>
+			</div>
+			<div class="foot_div_2">
+				<p>|</p>
+				<p>商务合作：bd@layabox.com</p>
+			</div>
+			<div class="foot_div_2">
+				<p>LayaAir引擎2D交流QQ群：104144216（已满）</p>
+				<p>LayaAir引擎2D交流QQ群2群：135887157</p>
+				<p>LayaAir引擎3D&VR交流QQ群：343966316</p>
+			</div>
+			<div class="foot_div_3">
+				<p>Copyright © 2014-2017 Layabox Inc. 京ICP备15008163号-1</p>
+			</div>
+			<div class="foot_div_4">
+				<p class="friendship">友情链接</p>
+				<a href="#"><p>龙图教育</p></a>
+				<p class="pline">|</p>
+				<a href="#"><p>游戏蛮牛</p></a>
+				<p class="pline">|</p>
+				<a href="#"><p>独游网</p></a>
+				<p class="pline">|</p>
+				<a href="#"><p>伍游网</p></a>
+				<p class="pline">|</p>
+				<a href="#"><p>我学院网</p></a>
+				<p class="pline">|</p>
+				<a href="#"><p>w3cschool</p></a>
+				<p class="pline">|</p>
+				<a href="#"><p>很快微信开发者社区</p></a>
+				<p class="pline">|</p>
+				<a href="#"><p>一轮文档搜索</p></a>
+			</div>
+			<div class="wx">
+				<img src="img/LAYABOX_QRcode.jpg">
+				<p>微信二维码</p>
+			</div>
+		</div>
+	</footer>
+		<script type="text/template" id="template1">
+			<li>
+				<a href="javascript:;">
+					<div class="re_box">
+						<img src="<%=img%>" />
+						<span class="news_text"><%=text%></span>
+					</div>
+				</a>
+			</li>
+		</script>
+		<script type="text/template" id="template2">
+			<li>
+				<div class="n_left_img">
+					<a href="javascript:;">
+						<div>
+							<img src="<%=img%>" />
+						</div>
+					</a>
+				</div>
+				<div class="n_top_title">
+					<a href="javascript:;"><%=title%></a>
+					<div class="n_top_time"><%=time%></div>
+					<p class="n_top_text"><%=text%></p>
+				</div>
+				<div class="n_right_btn">
+					<a href="javascript:;">查看详情</a>
+				</div>
+			</li>
+		</script>
+		<script
+  src="https://code.jquery.com/jquery-1.9.1.js"></script>
+		<script type="text/javascript" src="js/nav_top.js"></script>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/underscore-min.js"></script>
+		<script src="data/news.json"></script>
+		<script src="js/news.js"></script>
+	</body>
+</html>
+

@@ -1,0 +1,362 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+img{
+	vertical-align: middle;
+}
+/*webkit*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background-color: #1A1A1A;
+}
+/*顶部*/
+#laya_nav{
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    margin: 0;
+    height: 68px;
+    border-radius: 0;
+    min-width: 310px;
+    background-color: #1A1A1A;
+    background-image: none;
+    border: none;
+    .container{
+    	.navbar_header{
+    		height: 68px;
+    		float: left;
+    		line-height: 68px;
+    		.navbar_bad{
+    			padding: 16px 10px;
+   				height: auto;
+    		}
+    	}
+    	.nav_u{
+    		float: left;
+    		list-style: none;
+    		line-height: 68px;
+    		overflow: hidden;
+    		li{
+    			text-overflow: ellipsis;
+    			white-space: nowrap;
+    			float: left;
+    			a{
+    				color: white;
+    				padding: 15px 10px;
+    				text-decoration: none;
+    			}
+    			&:hover{
+					background-color:#3B3E43;
+				}
+    		}
+    	}
+    	.nav_right{
+    		float: right;
+    	}
+    	.navbar_toggle{
+		    border-color: #333;
+			background-color: transparent;
+			background-image: none;
+			border: 1px solid gray;
+			border-radius: 4px;
+			color: white;
+			font-size: 24px;
+			width: 44px;
+			height: 34px;
+			position: absolute;
+			right: 2%;
+			top:18px;
+			line-height: 1px;
+			outline: none;
+			display: none;
+    	}
+    }
+}
+.container{
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+#laya_content{
+	width: 100%;
+    height: auto;
+    margin: 80px auto 0 auto;
+    margin-top: 68px;
+    /*header*/
+	header{
+		position: relative;
+	    margin-top: 67px;
+	    width: 100%;
+	    height: 335px;
+	    background: #897D81 url(../img/banner.png) no-repeat center;
+	    background-size: cover;
+	    overflow: hidden;
+	    .container{
+	    	position: absolute;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    height: 100%;
+		    margin: 0 auto;
+		    text-align: center;
+	    	display: block;
+	    	.conTitle{
+	    		position: absolute;
+			    top: 0;
+			    left: 0;
+			    right: 0;
+			    bottom: 0;
+			    margin: auto;
+			    width: 60%;
+		    }
+	    }
+	}
+	/*介绍*/
+	.introduce {
+	    width: 100%;
+	    min-height: 570px;
+	    padding: 100px 0;
+	    .container{
+		    .layalogo{
+		    	margin: 0 auto;
+		    	height:90px;
+		    	text-align: center;
+		    	margin-bottom: 60px;
+		    	img{
+		    		height: 90px;
+		    	}
+		    }
+		    .layawow{
+		    	font-size: 14px;
+			    line-height: 35px;
+			    margin-bottom: 25px;
+		    }
+	    }
+	}
+	/*人才招聘*/
+	.recruit{
+		width: 100%;
+	    padding: 120px 0;
+	    background-color: #F1F1F1;
+	    .container{
+	    	.title{
+	    		width: 100%;
+			    height: 50px;
+			    line-height: 50px;
+			    font-size: 40px;
+			    text-align: center;
+	    	}
+	    	.titleRecruit {
+			    width: 100%;
+			    min-height: 100px;
+			    line-height: 45px;
+			    font-size: 14px;
+			    text-align: center;
+			    margin-top: 30px;
+			    margin-bottom: 80px;
+			}
+			.layaposition{
+				width: 100%;
+			    height: auto;
+			    background-color: white;
+			    margin-top: 30px;
+			    .layapositiontit{
+			    	padding: 30px 40px;
+				    width: 100%;
+				    min-height: 100px;
+				    font-size: 25px;
+				    border-bottom: 1px solid #F1F1F1;
+			    }
+			    .layapositioncont{
+		    	    width: 100%;
+				    padding: 30px 40px;
+				    overflow: hidden;
+				    .titleCentent{
+				    	font-size: 20px;
+    					padding: 0;
+				    }
+				    .cententCentent{
+				    	font-size: 15px;
+   						line-height: 35px;
+				    }
+			    }
+			}
+	    }
+	}
+	/*底部*/
+	.cooperation{
+		position: relative;
+	    width: 100%;
+	    min-height: 420px;
+	    background-color: #000;
+	    padding: 50px 0;
+	    .bot_title{
+	    	position: relative;
+		    width: 100%;
+		    line-height: 50px;
+		    text-align: center;
+		    color: white;
+		    font-size: 40px;
+		    margin-bottom: 10px;
+	    }
+	    .ranking{
+	    	position: relative;
+		    width: 100%;
+		    min-height: 30px;
+		    line-height: 30px;
+		    color: white;
+		    text-align: center;
+		    margin-bottom: 40px;
+	    }
+	    .col-lg-2{
+	    	height: 80px;
+	    	text-align: center;
+	    	img{
+	    		max-width: 150px;
+    			width: 100%;
+	    	}
+	    }
+	}
+}
+#laya_foot .foot_div_1, #laya_foot .foot_div_2, #laya_foot .foot_div_3, #laya_foot .foot_div_4 {
+    float: left;
+    min-height: 30px;
+    line-height: 30px;
+}
+#laya_foot .foot_div_1 a, #laya_foot .foot_div_2 p, #laya_foot .foot_div_3 p, #laya_foot .foot_div_4 p {
+    float: left;
+    margin-right: 30px;
+}
+#laya_foot .foot_div_4 a p, #laya_foot .foot_div_4 p, #laya_foot .foot_div_4 span {
+    color: #707480;
+}
+#laya_foot .foot_div_4 p {
+    margin: 0;
+}
+#laya_foot .foot_div_4 a p {
+    margin: 0 15px;
+}
+#laya_foot p {
+    color: #a2a2a2;
+    margin: 0;
+    font-size: 14px;
+}
+#laya_foot{
+	top: auto;
+	position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    min-width: 310px;
+    min-height: 170px;
+    padding: 30px 0;
+    background-color: #3B3E43;
+    border-top: 1px solid #4F5257;
+}
+#laya_foot .foot_div_4{
+	width: 100%;
+}
+.wx{
+	position: absolute;
+    right: 5px;
+    width: 100px;
+    height: 120px;
+    text-align: center;
+    img{
+    	width: 100px;
+    	height: 100px;
+    }
+    p{
+    	width: 100px;
+	    height: 20px;
+	    line-height: 15px;
+	    padding-top: 10px;
+	    text-align: center;
+	    color: #a2a2a2;
+	    margin: 0;
+	    font-size: 14px;
+    }
+}
+@media (min-width: 768px){
+	.container{
+		width:750px;
+	}
+}
+@media (min-width: 992px){
+	.container{
+		width:970px;
+	}
+}
+@media screen and (min-width: 1200px){
+	.container{
+		width:1170px;
+	}
+}
+@media only screen and (max-width: 991px){
+	.cententCentent{
+		margin-top: 30px !important;
+	}
+}
+@media only screen and (max-width: 768px){
+	.layapositiontit{
+		text-align: center;
+	}
+	.wx{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 991px){
+	.nav_u{
+		margin-left: 50px;
+	}
+}
+@media only screen and (max-width: 768px){
+	.navbar_toggle{
+		display: block !important;
+	}
+	.nav_right{
+		display: none;
+	}
+	.nav_u{
+		width:100%;
+		height: 476px;
+		display: none;
+		/*476*/
+		position: absolute;
+		left: 0;
+		top:68px;
+		background-color: black;
+		overflow: hidden;
+		li{
+			width: 100%;
+			height: 68px;
+			display: block;
+		}
+	}
+}
+@media only screen and (min-width: 769px){
+	.nav_u{
+		height: 68px;
+	}
+}

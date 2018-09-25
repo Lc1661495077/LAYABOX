@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Laya_案例</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="shortcut icon" href="https://official.layabox.com/public/img/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/anli.css"/>
+		<link rel="stylesheet" type="text/css" href="css/top.css"/>
+		<link rel="stylesheet" type="text/css" href="css/anli-pad.css" media="(max-width:992px) and (min-width:768px)"/>
+		<link rel="stylesheet" type="text/css" href="css/anli-app.css" media="(max-width:768px)"/>
+	</head>
+	<body>
+		<nav id="laya_nav">
+		<div class="container">
+			<div class="navbar_header">
+				<!-- 按钮 -->
+				<button class="navbar_toggle">三</button>
+				<!-- 图片 -->
+				<a href="#" class="navbar_bad">
+					<img src="img/LAYABOX_Logo.png">
+				</a>
+			</div>
+			<ul class="nav_u">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="fuwu.html">服务</a></li>
+				<li><a href="anli.html">案例</a></li>
+				<li><a href="news.html">新闻</a></li>
+				<li><a href="developer.html">开发者中心</a></li>
+				<li><a href="javascript:;">开发者社区</a></li>
+				<li><a href="gywm.html">关于我们</a></li>
+			</ul>
+			<ul class="nav_u nav_right">
+				<li><a href="index.html">语言</a></li>
+			</ul>
+		</div>
+	</nav>
+		<div class="lmm-top">
+			<img src="img/lmm-lb.jpg"/>
+		</div>
+		<section class="case">
+			<div class="container_lmm">
+				<div class="row">
+					<h3 class="title">引擎案例（部分上线作品）</h3>
+				</div>
+				<div class="row gamelist">
+					<div class="game-category">
+						<div class="tab-tit active">
+							2D案例
+						</div>
+						<div class="tab-tit">
+							3D案例
+						</div>
+					</div>
+					<ul class="tab-con clearfix select" id="box1">
+						<!--<li class="con-lg">
+							<a href="javascript:;">
+								<div class="game_box">
+									<img src="img/lmm-bg.png" class="game_bg"/>
+									<img src="img/lmm-04.jpg" class="game_img"/>
+									<div class="game_qr">
+										<img src="img/lmm-4.jpg"/>
+									</div>
+								</div>
+							</a>
+							<div class="game_title">
+								<div class="game_name">
+									《全民打雪球》
+								</div>
+								<p>
+									《全民打雪球》是一款多人在线的打雪仗类休闲对战游戏，游戏集休闲益智策略于一体，画面精美、上手简单、休闲有趣。
+								</p>
+							</div>
+						</li>-->
+					</ul>
+					<ul class="tab-con clearfix" id="box2"></ul>
+				</div>
+			</div>
+		</section>
+		<iframe src="foot/foot.html" width="100%" frameborder="no"></iframe>
+		<script type="text/template" id="template">
+			<li class="con-lg">
+				<a href="javascript:;">
+					<div class="game_box">
+						<img src="img/lmm-bg.png" class="game_bg"/>
+						<img src="img/<%=img%>" class="game_img"/>
+						<div class="game_qr">
+							<img src="img/<%=bgimg%>"/>
+						</div>
+					</div>
+				</a>
+				<div class="game_title">
+					<div class="game_name">
+						<%=tit%>
+					</div>
+					<p>
+						<%=con%>
+					</p>
+				</div>
+			</li>
+		</script>
+		<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="js/nav_top.js"></script>
+  <script src="js/jquery-1.8.3.min.js"></script>
+		<script src="data/anli.json"></script>
+		<script type="text/javascript" src="js/underscore-min.js" ></script>
+		<script type="text/javascript" src="js/anli.js" ></script>
+	</body>
+</html>
